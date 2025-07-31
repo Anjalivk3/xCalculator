@@ -29,7 +29,7 @@ const Calculator = () =>
       <div className={styles.calc_wrap} >
       <h1>React Calculator</h1>
       <input type="text" value={data}/>
-      <div>{result}</div>
+      <div className={styles.res}>{result}</div>
       <div className={styles.btn_wrap}>
       <button onClick={getData} value="7">7</button>
       <button onClick={getData} value="8">8</button>
